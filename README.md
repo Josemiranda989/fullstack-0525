@@ -1,5 +1,8 @@
 # 🚀 Curso de Desarrollo Web Full Stack  
 
+Enlace al proyecto integrador
+[Github ImpreNode](https://github.com/Josemiranda989/DPFS_impreNode)
+
 ## 🏗️ Estructura del Curso  
 Este curso está diseñado para abordar el desarrollo web de manera integral, combinando conceptos fundamentales con herramientas modernas. Se estructura por clases, cubriendo desde los fundamentos hasta tecnologías avanzadas.  
 
