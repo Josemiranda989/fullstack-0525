@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro FullStack Express + MySQL + React</title>
+  <!-- Links CSS -->
+  <link rel="stylesheet" href="../styles/general-styles.css">
+  <link rel="stylesheet" href="../styles/register.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet">
+    <!-- Icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <img width="200" src="../images/logo.png" alt="logo-html" />
+    <ul class="links">
+      <li>
+        <a href="/">Home <i class="fa-solid fa-house"></i></a>
+      </li>
+      <li>
+        <a href="/registro">Registro <i class="fa-solid fa-user-plus"></i></a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <h1>Formulario de registro</h1>
+    <form class="register-form" action="/" method="post">
+      <!-- Campo nombre -->
+      <div>
+        <label for="nombre">Ingrese su Nombre:</label>
+        <input type="text" name="nombre" id="saludo" placeholder="Juanon" required />
+      </div>
+      <!-- Campo apellido -->
+      <div>
+        <label for="apellido">Ingrese su Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Lucero" />
+      </div>
+      <!-- Campo email -->
+      <div>
+        <label for="email">Ingrese su Email:</label>
+        <input type="email" name="email" id="email" placeholder="algo@gmail.com" />
+      </div>
+      <!-- Campo contraseña -->
+      <div>
+        <label for="contrasena">Ingrese su contraseña:</label>
+        <input type="password" name="contrasena" id="contrasena" />
+      </div>
+      <!-- Campo perfil -->
+      <div>
+        <label for="avatar">Ingrese una imagen:</label>
+        <input type="file" name="avatar" id="avatar" />
+      </div>
+      <!-- Campo nacimiento -->
+      <div>
+        <label for="nacimiento">Ingrese una fecha de nacimiento:</label>
+        <input type="date" name="nacimiento" id="nacimiento" value="2000-10-12" max="2020-10-12" />
+      </div>
+      <!-- Campo genero -->
+      <div>
+        <label for="genero">Ingrese su genero:</label>
+        <select name="genero" id="genero">
+          <option value="" disabled selected>
+            Selecciona una opcion
+          </option>
+          <option value="M">Masculino</option>
+          <option value="F">Femenino</option>
+          <option value="NA">N/A</option>
+        </select>
+      </div>
+      <!-- Campo rol -->
+      <fieldset>
+        <legend>Elige el rol</legend>
+        <div>
+          <input type="checkbox" id="cliente" name="rol" value="client" checked />
+          <label for="cliente">Cliente</label>
+        </div>
+        <div>
+          <input type="checkbox" id="vendedor" name="rol" value="seller" />
+          <label for="vendedor">Vendedor</label>
+        </div>
+      </fieldset>
+      <!-- Boton Envio -->
+      <button type="submit">Registrarse</button>
+      <!-- Boton Reset -->
+      <button type="reset">Borrar</button>
+    </form>
+  </main>
+  <footer>
+    <h2>Derechos reservados a Youtube</h2>
+  </footer>
+</body>
+
+</html>

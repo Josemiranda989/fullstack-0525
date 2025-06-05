@@ -1,0 +1,24 @@
+html {
+    font-family: "Roboto Slab", "Roboto Mono", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: coral;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(34, 77, 78);
+    font-size: 24px
+}
+
+#foot {
+    background-color: #272626;
+    color: beige;
+    text-align: center;
+}
+
+.links {
+    list-style: none;
+}

@@ -1,90 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Registro FullStack Express + MySQL + React</title>
-</head>
+  </head>
 
-<body>
-  <header>
-    <img width="200"
-      src="https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png"
-      alt="logo-html" />
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/registro">Registro</a>
-      </li>
-    </ul>
-  </header>
+  <body>
+        <header>
+          <img width="200"
+            src="https://e7.pngegg.com/pngimages/780/934/png-clipart-html-logo-html5-logo-icons-logos-emojis-tech-companies-thumbnail.png"
+            alt="logo-html" />
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/registro">Registro</a>
+            </li>
+          </ul>
+        </header>
   <main>
-    <h1>Formulario de registro</h1>
-    <form action="/" method="post">
-      <!-- Campo nombre -->
-      <div>
-        <label for="nombre">Ingrese su Nombre:</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Juanon" required />
-      </div>
-      <!-- Campo apellido -->
-      <div>
-        <label for="apellido">Ingrese su Apellido:</label>
-        <input type="text" name="apellido" id="apellido" placeholder="Lucero" />
-      </div>
-      <!-- Campo email -->
-      <div>
-        <label for="email">Ingrese su Email:</label>
-        <input type="email" name="email" id="email" placeholder="algo@gmail.com" />
-      </div>
-      <!-- Campo contraseña -->
-      <div>
-        <label for="contrasena">Ingrese su contraseña:</label>
-        <input type="password" name="contrasena" id="contrasena" />
-      </div>
-      <!-- Campo perfil -->
-      <div>
-        <label for="avatar">Ingrese una imagen:</label>
-        <input type="file" name="avatar" id="avatar" />
-      </div>
-      <!-- Campo nacimiento -->
-      <div>
-        <label for="nacimiento">Ingrese una fecha de nacimiento:</label>
-        <input type="date" name="nacimiento" id="nacimiento" value="2000-10-12" max="2020-10-12" />
-      </div>
-      <!-- Campo genero -->
-      <div>
-        <label for="genero">Ingrese su genero:</label>
-        <select name="genero" id="genero">
-          <option value="" disabled selected>Selecciona una opcion</option>
-          <option value="M">Masculino</option>
-          <option value="F">Femenino</option>
-          <option value="NA">N/A</option>
-        </select>
-      </div>
-      <!-- Campo rol -->
-      <fieldset>
-        <legend>Elige el rol</legend>
-        <div>
-          <input type="checkbox" id="cliente" name="rol" value="client" checked />
-          <label for="cliente">Cliente</label>
-        </div>
-        <div>
-          <input type="checkbox" id="vendedor" name="rol" value="seller" />
-          <label for="vendedor">Vendedor</label>
-        </div>
-      </fieldset>
-      <!-- Boton Envio -->
-      <button type="submit">Registrarse</button>
-      <!-- Boton Reset -->
-      <button type="reset">Borrar</button>
-    </form>
+        <h1>Formulario de registro</h1>
+        <form action="/" method="post">
+          <!-- Campo nombre -->
+          <div>
+            <label for="nombre">Ingrese su Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Juanon" required />
+          </div>
+          <!-- Campo apellido -->
+          <div>
+            <label for="apellido">Ingrese su Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Lucero" />
+          </div>
+          <!-- Campo email -->
+          <div>
+            <label for="email">Ingrese su Email:</label>
+            <input type="email" name="email" id="email" placeholder="algo@gmail.com" />
+          </div>
+          <!-- Campo contraseña -->
+          <div>
+            <label for="contrasena">Ingrese su contraseña:</label>
+            <input type="password" name="contrasena" id="contrasena" />
+          </div>
+          <!-- Campo perfil -->
+          <div>
+            <label for="avatar">Ingrese una imagen:</label>
+            <input type="file" name="avatar" id="avatar" />
+          </div>
+          <!-- Campo nacimiento -->
+          <div>
+            <label for="nacimiento">Ingrese una fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" id="nacimiento" value="2000-10-12" max="2020-10-12" />
+          </div>
+          <!-- Campo genero -->
+          <div>
+            <label for="genero">Ingrese su genero:</label>
+            <select name="genero" id="genero">
+              <option value="" disabled selected>Selecciona una opcion</option>
+              <option value="M">Masculino</option>
+              <option value="F">Femenino</option>
+              <option value="NA">N/A</option>
+            </select>
+          </div>
+          <!-- Campo rol -->
+          <fieldset>
+            <legend>Elige el rol</legend>
+            <div>
+              <input type="checkbox" id="cliente" name="rol" value="client" checked />
+              <label for="cliente">Cliente</label>
+            </div>
+            <div>
+              <input type="checkbox" id="vendedor" name="rol" value="seller" />
+              <label for="vendedor">Vendedor</label>
+            </div>
+          </fieldset>
+          <!-- Boton Envio -->
+          <button type="submit">Registrarse</button>
+          <!-- Boton Reset -->
+          <button type="reset">Borrar</button>
+        </form>
   </main>
   <footer>
     <p>Derechos reservados a Youtube</p>
   </footer>
-</body>
+  </body>
 
 </html>

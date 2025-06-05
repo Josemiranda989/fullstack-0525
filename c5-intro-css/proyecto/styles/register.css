@@ -1,0 +1,11 @@
+h1 {
+    color: burlywood;
+    font-size: 40px;
+}
+
+.register-form {
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
