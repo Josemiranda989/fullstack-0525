@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(26, 63, 26);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+header {
+    background-color: #a1a0a0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+}
+
+.links-nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.links-nav li {
+    /* background-color: #fff; */
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(20, 128, 92);
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: #a1a0a0;
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column; /* Cuando usamos column MAIN AXIS = align CROSS AXIS = justif */
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.card img {
+    width: 300px;
+    
+}
+
+.in-sale {
+    order: -1;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.otra {
+    order:1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
