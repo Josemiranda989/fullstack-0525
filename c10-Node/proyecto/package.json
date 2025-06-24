@@ -1,0 +1,20 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "main": "bienvenida.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bienvenida.js",
+    "bienvenida": "echo 'Bienvenido a mi proyecto!'",
+    "crear-carpeta": "mkdir nueva-carpeta"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "prompt": "^1.3.0"
+  }
+}
