@@ -23,7 +23,7 @@ Objetivo: Usar while o do while para repetir acciones hasta cumplir una condici�
 🧩 Instrucciones:
 Crear una variable numeroSecreto con un valor fijo (por ejemplo, 7).
 
-Usar prompt() para pedir al usuario que adivine el número (solo si usás entorno de navegador).
+Usar variable para simular la eleccion de un numero.
 
 Repetir el intento hasta que el usuario acierte.
 
