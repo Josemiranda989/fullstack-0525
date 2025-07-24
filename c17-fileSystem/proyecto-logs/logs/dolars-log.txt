@@ -1,0 +1,14 @@
+Oficial - C: 1240 / V: 1290} 
+Blue - C: 1275 / V: 1295} 
+Bolsa - C: 1280 / V: 1281.3} 
+Contado con liquidación - C: 1283.7 / V: 1284.4} 
+Mayorista - C: 1263 / V: 1274} 
+Cripto - C: 1291.43 / V: 1294.9} 
+Tarjeta - C: 1612 / V: 1677} 
+Oficial - C: 1240 / V: 1290 
+Blue - C: 1275 / V: 1295 
+Bolsa - C: 1280 / V: 1281.3 
+Contado con liquidación - C: 1283.7 / V: 1284.4 
+Mayorista - C: 1263 / V: 1274 
+Cripto - C: 1291.43 / V: 1294.9 
+Tarjeta - C: 1612 / V: 1677 

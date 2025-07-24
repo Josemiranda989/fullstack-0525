@@ -1,0 +1,58 @@
+[
+  {
+    "moneda": "USD",
+    "casa": "oficial",
+    "nombre": "Oficial",
+    "compra": 1240,
+    "venta": 1290,
+    "fechaActualizacion": "2025-07-17T15:04:00.000Z"
+  },
+  {
+    "moneda": "USD",
+    "casa": "blue",
+    "nombre": "Blue",
+    "compra": 1275,
+    "venta": 1295,
+    "fechaActualizacion": "2025-07-17T18:57:00.000Z"
+  },
+  {
+    "moneda": "USD",
+    "casa": "bolsa",
+    "nombre": "Bolsa",
+    "compra": 1280,
+    "venta": 1281.3,
+    "fechaActualizacion": "2025-07-17T18:57:00.000Z"
+  },
+  {
+    "moneda": "USD",
+    "casa": "contadoconliqui",
+    "nombre": "Contado con liquidación",
+    "compra": 1283.7,
+    "venta": 1284.4,
+    "fechaActualizacion": "2025-07-17T18:57:00.000Z"
+  },
+  {
+    "moneda": "USD",
+    "casa": "mayorista",
+    "nombre": "Mayorista",
+    "compra": 1263,
+    "venta": 1274,
+    "fechaActualizacion": "2025-07-17T15:29:00.000Z"
+  },
+  {
+    "moneda": "USD",
+    "casa": "cripto",
+    "nombre": "Cripto",
+    "compra": 1291.43,
+    "venta": 1294.9,
+    "fechaActualizacion": "2025-07-17T18:57:00.000Z"
+  },
+  {
+    "moneda": "USD",
+    "casa": "tarjeta",
+    "nombre": "Tarjeta",
+    "compra": 1612,
+    "venta": 1677,
+    "fechaActualizacion": "2025-07-17T15:04:00.000Z"
+  }
+]

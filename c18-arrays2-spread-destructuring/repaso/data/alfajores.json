@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Alfajor Havanna",
+    "sabor": "chocolate",
+    "relleno": "dulce de leche",
+    "pesoGramos": 55,
+    "tieneBañoDeChocolate": true,
+    "esPremium": true
+  },
+  {
+    "id": 2,
+    "nombre": "Alfajor Guaymallén",
+    "sabor": "vainilla",
+    "relleno": "dulce de membrillo",
+    "pesoGramos": 45,
+    "tieneBañoDeChocolate": false,
+    "esPremium": false
+  },
+  {
+    "id": 3,
+    "nombre": "Alfajor Jorgito",
+    "sabor": "chocolate",
+    "relleno": "dulce de leche",
+    "pesoGramos": 50,
+    "tieneBañoDeChocolate": true,
+    "esPremium": false
+  },
+  {
+    "id": 4,
+    "nombre": "Alfajor Terrabusi",
+    "sabor": "coco",
+    "relleno": "dulce de leche",
+    "pesoGramos": 48,
+    "tieneBañoDeChocolate": false,
+    "esPremium": false
+  },
+  {
+    "id": 5,
+    "nombre": "Alfajor Capitán del Espacio",
+    "sabor": "chocolate",
+    "relleno": "dulce de leche",
+    "pesoGramos": 52,
+    "tieneBañoDeChocolate": true,
+    "esPremium": false
+  },
+  {
+    "id": 6,
+    "nombre": "Alfajor Milka Oreo",
+    "sabor": "chocolate",
+    "relleno": "crema Oreo",
+    "pesoGramos": 60,
+    "tieneBañoDeChocolate": true,
+    "esPremium": true
+  },
+  {
+    "id": 7,
+    "nombre": "Alfajor Fantoche Triple",
+    "sabor": "vainilla",
+    "relleno": "dulce de leche",
+    "pesoGramos": 75,
+    "tieneBañoDeChocolate": true,
+    "esPremium": false
+  },
+  {
+    "id": 8,
+    "nombre": "Alfajor La Quinta",
+    "sabor": "chocolate",
+    "relleno": "dulce de leche",
+    "pesoGramos": 53,
+    "tieneBañoDeChocolate": false,
+    "esPremium": true
+  }
+]

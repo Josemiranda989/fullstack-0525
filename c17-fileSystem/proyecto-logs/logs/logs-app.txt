@@ -1,0 +1,4 @@
+Thu Jul 17 2025 16:35:52 GMT-0300 (hora estándar de Argentina) - Se creo un nuevo archivo canciones 
+Thu Jul 17 2025 16:35:52 GMT-0300 (hora estándar de Argentina) - Se ejecuto la app 
+Thu Jul 17 2025 16:40:08 GMT-0300 (hora estándar de Argentina) - Se actualizó el archivo canciones 
+Thu Jul 17 2025 16:40:08 GMT-0300 (hora estándar de Argentina) - Se ejecuto la app 
