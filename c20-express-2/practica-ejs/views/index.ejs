@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <p>Welcome to <%= title %>
+  </p>
+  <p>El plato preferido es <%= platoPreferido %>
+  </p>
+
+  <ul>
+    <% platos.forEach(plato=> { %>
+      <article>
+        <p>nombre</p>
+        <%= plato %>
+        <hr>
+      </article>
+      <% }) %>
+  </ul>
+
+<% for( let index = 0; index < 5; index++ ) { %>
+  <h4><%= title %></h4>
+<% } %>
+
+<div>
+<h3>Las mejores peliculas de marvel</h3>
+  <% movies.forEach(movie => { %>
+    <article>
+      <h5><%= movie.title %></h5>
+      <h5><%= movie.length %></h5>
+      <h5><%= movie.rating %></h5>
+      <h5><%= movie.language %></h5>
+    </article>
+    <% }) %>
+  </div>
+
+</body>
+
+</html>
